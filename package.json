@@ -1,22 +1,25 @@
 {
-  "name": "discord-bot-template",
-  "version": "2.0.0",
-  "description": "可擴充的 Discord 機器人模板，適合社群管理與活動通知",
+  "name": "competition-specific-discord-robot",
+  "version": "0.1.0",
+  "description": "A self-hosted Discord.js bot for tournament check-ins, match coordination, result publishing, and community event operations.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
-    "deploy:commands": "node scripts/deploy-commands.js"
+    "deploy:commands": "node scripts/deploy-commands.js",
+    "verify": "node scripts/check-syntax.js"
   },
   "keywords": [
     "discord",
-    "bot",
-    "template",
-    "moderation",
-    "management",
-    "community"
+    "discordjs",
+    "tournament",
+    "esports",
+    "check-in",
+    "event-management",
+    "self-hosted",
+    "community-bot"
   ],
-  "author": "Community Contributors",
+  "author": "hong-design",
   "license": "MIT",
   "dependencies": {
     "better-sqlite3": "^12.11.1",

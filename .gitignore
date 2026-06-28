@@ -5,7 +5,6 @@
 
 # 依賴
 node_modules/
-package-lock.json
 yarn.lock
 
 # 日誌數據
