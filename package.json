@@ -1,0 +1,29 @@
+{
+  "name": "discord-bot-template",
+  "version": "2.0.0",
+  "description": "可擴充的 Discord 機器人模板，適合社群管理與活動通知",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "deploy:commands": "node scripts/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "template",
+    "moderation",
+    "management",
+    "community"
+  ],
+  "author": "Community Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
